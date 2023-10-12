@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <title>skyskraper</title>
+    <style>
+        body{
+            background-color: #404040;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1{
+            background-color: #3f4259;
+            padding: 1rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table{
+            background-color: #f6f5f4;
+            width: minmax(200px, 1fr);
+            border:1rem solid #bdd4de;
+            margin-bottom: 0.25rem;
+            
+        }
+        td{
+            padding: 1rem;
+        }
+        th{
+            padding: 1rem;
+            color: white;
+        }
+        table thead{
+            background-color: #3f5765;
+        }
+        tbody tr:nth-child(even){
+            background-color: #bdd4de;
+        }
+        section{
+            height: max-content;
+            width: 100%;
+        }
+        img{
+            object-fit: cover;
+            width: 33%;
+            aspect-ratio: 1/1.25;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verdens tre største skyskrapere</h1>
+    <table>
+        <thead>
+            <th>Skyskraper</th>
+            <th>Høyde</th>
+            <th>By</th>
+            <th>Land</th>
+            <th>Byggår</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Burj Khalifa</td>
+                <td>828 m</td>
+                <td>Dubai</td>
+                <td>De forente arabiske emirates</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>Shanghai Tower</td>
+                <td>632 m</td>
+                <td>Shanghai</td>
+                <td>Kina</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>Makkah Royal Clock Tower</td>
+                <td>601 m</td>
+                <td>Mekka</td>
+                <td>Saudi-Arabia</td>
+                <td>2011</td>
+            </tr>
+        </tbody>
+    </table>
+    <section>
+        <a href="https://en.wikipedia.org/wiki/Burj_Khalifa"><img src="bilder/burj_stor.jpg" alt="Burj Khalifa"></a>
+        <a href="https://en.wikipedia.org/wiki/Shanghai_Tower"><img src="bilder/Shanghai_stor.jpg" alt="Shanghai Tower"></a>
+        <a href="https://en.wikipedia.org/wiki/The_Clock_Towers"><img src="bilder/Makkah_stor.jpg" alt="Makkah Royal Clock Tower"></a>
+    </section>
+</body>
+</html>
